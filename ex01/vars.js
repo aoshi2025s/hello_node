@@ -1,23 +1,13 @@
-// ************************************************************************** //
-//                                                                            //
-//                                                        :::      ::::::::   //
-//   vars.js                                            :+:      :+:    :+:   //
-//                                                    +:+ +:+         +:+     //
-//   By: yoaoki <yoaoki@student.42tokyo.jp>         +#+  +:+       +#+        //
-//                                                +#+#+#+#+#+   +#+           //
-//   Created: 2024/05/15 10:59:48 by yoaoki            #+#    #+#             //
-//   Updated: 2024/05/15 11:24:19 by yoaoki           ###   ########.fr       //
-//                                                                            //
-// ************************************************************************** //
-
-console.log("42 is a " + typeof("42"));
-console.log(42 + " is a " + typeof(42));
-
-/*
-42 is a string.
-42 is a number.
-42 is an object.
-[object Object] is an object.
-true is a boolean.
-undefined is an undefined.
-*/
+var ft_s = "42";
+console.log(ft_s + " is a " + typeof (ft_s) + ".");
+var ft_n = 42;
+console.log(ft_n + " is a " + typeof (ft_n) + ".");
+var ft_obj = {
+    a: "object",
+    b: "Object"
+};
+console.log("[" + ft_obj.a + " " + ft_obj.b + "] is an " + typeof (ft_obj) + ".");
+var ft_b = true;
+console.log(ft_b + " is a " + typeof (ft_b) + ".");
+var ft_u = undefined;
+console.log(ft_u + " is a " + typeof (ft_u) + ".");
